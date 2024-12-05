@@ -38,7 +38,6 @@ app.post('/generate-image', async (c) => {
   const payload = {
     prompt: query,
     output_format: 'jpeg',
-    style_preset: 'digital-art',
   };
 
   const formData = new FormData();
